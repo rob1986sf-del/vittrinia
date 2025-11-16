@@ -1,8 +1,8 @@
 
 import React, { useState, useCallback } from 'react';
-import { Header } from './components/Header';
-import { ControlsPanel } from './components/ControlsPanel';
-import { ImageDisplay } from './components/ImageDisplay';
+import { Header } from './src/components/Header';
+import { ControlsPanel } from './src/components/ControlsPanel';
+import { ImageDisplay } from './src/components/ImageDisplay';
 import { generateModelImage } from './services/geminiService';
 import { ImageFile, GenerationOptions } from './types';
 import { AboutModal } from './components/AboutModal';
